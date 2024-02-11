@@ -5,7 +5,7 @@ on:
   # our license template file. Also allow manual triggering.
   push:
     branches:
-      - main
+      - '**'
     paths:
       - go.mod
       - .github/licenses.tmpl

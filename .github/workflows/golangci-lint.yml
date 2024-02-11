@@ -6,7 +6,7 @@ on:
   # TODO(andrew): enable for main branch after an initial waiting period.
   #push:
   #  branches:
-  #    - main
+  #    - '**'
 
   workflow_dispatch:
 

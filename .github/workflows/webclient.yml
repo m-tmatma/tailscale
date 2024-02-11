@@ -12,7 +12,7 @@ on:
   # TODO(soniaappasamy): enable for main branch after an initial waiting period.
   #push:
   #  branches:
-  #    - main
+  #    - '**'
 
 concurrency:
   group: ${{ github.workflow }}-$${{ github.head_ref || github.run_id }}

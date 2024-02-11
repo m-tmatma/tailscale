@@ -5,7 +5,7 @@ on:
   # allow manual triggering.
   push:
     branches:
-      - main
+      - '**'
     paths:
       - go.mod
       - .github/workflows/update-flakes.yml
